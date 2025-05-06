@@ -48,6 +48,7 @@ h2{
     font-size: 32px;
     font-weight: 600;
     margin-top: 32px;
+    margin-bottom: 30px;
 }
 
 .paragrafo{
@@ -77,3 +78,45 @@ h2{
     width: 100%;
     z-index: -10;
 }
+
+/* Fim da configuração da Seção Inicio */
+
+/* Começo da configuração da Seção Clinica */
+
+#clinica{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 80px 80px 24px 80px;
+    position: relative;
+}
+
+#clinica .paragrafo{
+    line-height: 150%;
+    margin-bottom: 64px;
+    position: relative;
+    bottom: 30px;
+}
+
+#clinica h1{
+    position: relative;
+    bottom: 30px;
+}
+
+#clinica ul{
+    position: relative;
+    left: 50px;
+    bottom: 70px;
+}
+
+#clinica li{
+    margin-bottom: 20px;
+}
+
+#clinica .botao,
+#clinica .botao-transparente{
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+}
+/* Fim da configuração da Seção Clinica */
