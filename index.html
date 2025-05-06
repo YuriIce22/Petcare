@@ -22,6 +22,7 @@
             <a href="#clinica">Clínica</a>
             <a href="#farmacia">Farmácia</a>
             <a href="#duvidas">Dúvidas</a>
+            <a href="#contato">Contato</a>
         </nav>
     </header>
 
@@ -87,6 +88,75 @@
         <!-- Fim Seção Farmacia -->
 
         <section id="duvidas"></section>
+
+        <!-- Seção Contatos -->
+        <section id="contatos">
+
+            <div class="itens-conteudo">
+                <form>
+                    <div>
+                        <h1>Entre em contato!</h1>
+                    </div>
+
+
+                    <div> 
+                        <label>Nome
+                            <input type="text" name="name" id="text" 
+                            placeholder="Nome e sobrenome" maxlength="30" required>
+                        </label>   
+                    </div>
+                    <br>
+            
+                    <div>
+                        <label>E-mail
+                            <input type="email" name="email" id="email" 
+                            placeholder="email@email.com.br" maxlength="50" required>
+                        </label>
+                    </div>
+                    <br>
+            
+                    <div>
+                        <label>Telefone
+                            <input type="tel" name="tel" id="tel" 
+                            placeholder="(00) 00000-0000" required autocomplete="off">
+                        </label>
+                    </div>
+                    <br>
+
+                    <div>
+                        <label>Assunto
+                            <select name="assunto" id="assunto">
+                                <option value="vendas">Venda de Medicamentos</option>
+                                <option value="horarios">Horarios</option>
+                                <option value="denuncias">Denuncias</option>
+                                <option value="outros">Outros</option>
+                              </select>
+                        </label>
+                    </div>
+                    <br>
+
+                    <div>
+                        <label for="message">Mensagem</label> 
+                        <br>
+                        <textarea name="message" id="message" 
+                        placeholder="Escreva sobre o assunto!" rows="10" cols="45" style="resize: none;" required></textarea>
+                    </div>
+                    <br>
+
+                    <div>
+                        <label for="submit"></label>
+                        <input type="submit" id="submit">
+                    </div>
+                    <br>
+                </form>
+            </div>    
+
+            <img src="./img/contact-img.png" alt="Contato" width="600" height="680">
+
+        </section>
+        <!-- Fim Seção Contatos -->
+
+        
 
     </main>
 
