@@ -224,3 +224,68 @@ h2{
     left: 5px;
 }
 /* Fim da configuração da seção contato */
+
+/* Começo da configuração do Footer */
+footer{
+    height: 400px;
+    background-color: #ffe9e5;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 30px 50px 30px;
+}
+footer .footerLinks{
+    display: flex;
+    flex-direction: column;
+}
+footer .encontre-nos{
+    display: flex;
+    flex-direction: column;
+}
+.footerLogo p{
+    font-size: 19px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.footerLinks p{
+    font-size: 19px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.footerLinks a{
+    text-decoration: none;
+    padding-top: 13px;
+    font-size: 18px;
+    color: black;
+}
+.footerContato{
+    font-size: 18px;
+}
+.footerContato p{
+    font-size: 19px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.footerContato a{
+    text-decoration: none;
+    padding-top: 9px;
+    font-size: 18px;
+    color: #FF725E;
+}
+.footerContato div{
+    margin-top: 10px;
+}
+.creditos{
+    background-color: rgb(49, 49, 49);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.creditos a{
+    color: #FF7258;
+    text-decoration: none;
+    margin-left: 9px;
+}
+/* Fim da configuração do Footer */
