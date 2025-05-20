@@ -3,18 +3,27 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Nunito", sans-serif;
 }
 body{
     color: #263138;
+    background: linear-gradient(
+    45deg,
+    #20471C 0%,
+    #A5F990 50%,
+    #20471C 100%
+  );
 }
-
 /* Header --- Menu */
 .menu{
-    background-color: #ff9a6c;
+    background-color: #20471C;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 24px 80px 24px 80px;    
+}
+.menu img{
+    height: 70px;
 }
 .menu nav a{
     color: #FFF;
@@ -37,8 +46,17 @@ body{
     display: flex;
     align-items: center;
     gap: 32px;
-    padding: 80px 80px 24px 80px;
+    padding: 140px 80px 24px 80px;
     position: relative;
+}
+#inicio h1,
+#inicio h2,
+#inicio .paragrafo{
+    color: white;
+}
+#inicio img{
+    display: flex;
+    bottom: 24px;
 }
 h1, 
 h2{
@@ -53,15 +71,15 @@ h2{
     text-align: justify;
 }
 .botao{
-    background-color: #ff9a6c;
+    background-color: #20471C;
     border-radius: 8px;
-    color: white;
+    color: #9BE687;
     padding: 16px 32px;
     text-decoration: none;
 }
 .botao-transparente{
     background-color: transparent;
-    color: #FF725E;
+    color: #A5F990;
     padding: 16px 32px;
     text-underline-offset: 4px;
 }
