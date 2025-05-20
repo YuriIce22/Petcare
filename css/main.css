@@ -231,7 +231,7 @@ footer{
     background-color: #ffe9e5;
     display: flex;
     justify-content: space-between;
-    padding: 60px 30px 50px 30px;
+    padding: 90px 90px 50px 90px;
 }
 footer .footerLinks{
     display: flex;
