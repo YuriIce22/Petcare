@@ -251,7 +251,7 @@ h2{
 /* Começo da configuração do Footer */
 footer{
     height: 400px;
-    background-color: #ffe9e5;
+    background-color: #8edb79;
     display: flex;
     justify-content: space-between;
     padding: 90px 90px 50px 90px;
@@ -263,6 +263,9 @@ footer .footerLinks{
 footer .encontre-nos{
     display: flex;
     flex-direction: column;
+}
+footer img{
+    height: 80px;
 }
 .footerLogo p{
     font-size: 19px;
@@ -278,7 +281,7 @@ footer .encontre-nos{
     text-decoration: none;
     padding-top: 13px;
     font-size: 18px;
-    color: black;
+    color: #20471C;
 }
 .footerContato{
     font-size: 18px;
@@ -292,7 +295,7 @@ footer .encontre-nos{
     text-decoration: none;
     padding-top: 9px;
     font-size: 18px;
-    color: #FF725E;
+    color: #20471C;
 }
 .footerContato div{
     margin-top: 10px;
@@ -307,7 +310,7 @@ footer .encontre-nos{
 }
 
 .creditos a{
-    color: #FF7258;
+    color: #9BE687;
     text-decoration: none;
     margin-left: 9px;
 }
