@@ -124,6 +124,10 @@ h2{
     bottom: 40px;
     left: 10px;
 }
+
+#clinica .botao-transparente{
+    color: #398031;
+}
 /* Fim da configuração da Seção Clinica */
 
 /* Começo da configuração da Seção farmacia */
