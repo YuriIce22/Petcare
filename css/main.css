@@ -165,7 +165,7 @@ h2{
     position: relative;
 }
 .duvida h3{
-    border: 2px solid #FF725E;
+    border: 2px solid #20471C;
     border-radius: 8px;
     padding: 24px;
 }
@@ -176,9 +176,9 @@ h2{
     right: 24px;
 }
 .duvida .paragrafo{
-    border-right: 1px solid #FF725E;
-    border-bottom: 1px solid #FF725E;
-    border-left: 1px solid #FF725E;
+    border-right: 1px solid #20471C;
+    border-bottom: 1px solid #20471C;
+    border-left: 1px solid #20471C;
     border-radius: 0 0 8px 8px;
     margin-top: -8px;
 
